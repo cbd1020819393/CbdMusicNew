@@ -15,6 +15,7 @@ import cbd.com.cbdmusic.R;
 public class MyRecyclerAdapter extends BaseRecyclerAdapter<MusicBean.ShowapiResBodyBean.PagebeanBean.SonglistBean> {
 
 
+    private String testkdkdld;
     @Override
     public RecyclerView.ViewHolder onCreate(ViewGroup parent, int viewType) {
         View layout = LayoutInflater.from(parent.getContext()).inflate(R.layout.recycle_item, parent, false);
