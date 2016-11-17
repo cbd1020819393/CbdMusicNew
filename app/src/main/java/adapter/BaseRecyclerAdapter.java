@@ -13,6 +13,7 @@ import java.util.HashMap;
  * Created by A on 2016/10/29.
  */
 public abstract class BaseRecyclerAdapter<T> extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
+    private String test;
     public static int TYPE_NORMAL = 1;
     public Integer headerInt=1000;
     public Integer footerInt=2000;
